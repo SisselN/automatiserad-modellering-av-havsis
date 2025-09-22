@@ -18,7 +18,7 @@ Projektet består av fyra delar
 
 Kör programmet med
 > python main.py  
-  
+
 För att träna en modell på befintlig data kör
 > python model_utils.py
 
@@ -39,4 +39,4 @@ Varje modell som tränats sparas separat och jämförs med varandra. Den modell 
 main-py innehåller huvudfunktionen main som initierar databasen och startar en loop som skickar
 request till API:et samt tränar och sparar en modell vid ett intervall av 100 bilder.
 
-Sissel Nevestveit - september 2025
+**Sissel Nevestveit - september 2025**
