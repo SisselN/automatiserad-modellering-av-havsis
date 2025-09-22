@@ -18,6 +18,7 @@ Projektet består av fyra delar
 
 Kör programmet med
 > python main.py  
+  
 För att träna en modell på befintlig data kör
 > python model_utils.py
 
