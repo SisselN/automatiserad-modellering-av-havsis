@@ -16,8 +16,10 @@ Projektet består av fyra delar
 3. Maskininlärningsmodell
 4. Huvudfunktionen
 
-Kör programmet med python main.py  
-För att träna en modell på befintlig data kör python model_utils.py
+Kör programmet med
+> python main.py  
+För att träna en modell på befintlig data kör
+> python model_utils.py
 
 ### 1. API-hämtning (api.py)
 api.py innehåller en funktion för att hämta kartbilder från MET Norges REST API (https://api.met.no/weatherapi/icemap/1.0/documentation).
