@@ -1,21 +1,22 @@
-Automatiserad neurala nätverksmodellering av havsisens utbredning i Norra ishavet
+# Automatiserad neurala nätverksmodellering av havsisens utbredning i Norra ishavet
 
 Det här projektet implementerar ett automatiserat flöde för att hämta kartbilder från MET Norge (https://api.met.no/weatherapi/icemap/1.0/documentation)
 och tränar en maskininlärningsmodell (*Convolutional Neural Network*, CNN) att kunna uppskatta hur stor del av kartbilden som är täckt av is.
 
 Observera att syftet med projektet är att skapa ett automatiserat flöde för att hämta data via API och träna om modeller.
-Det behövs en stor mängd data (tusentals bilder) för att modellen ska kunna prestera bra.
+Det behövs en stor mängd data (tusentals bilder) för att modellen ska kunna prestera bra.  
+Programmet är kört så lång tid att ca 300 bilder har hämtats och tre modeller har tränats och sparats.
 
 Detta är ett examinerande projekt i kursen *Fördjupning i python* vid EC Utbildning AB.
 
-#### Struktur
+## Struktur
 Projektet består av fyra delar
 1. API
 2. Databas
 3. Maskininlärningsmodell
 4. Huvudfunktionen
 
-Kör programmet med python main.py
+Kör programmet med python main.py  
 För att träna en modell på befintlig data kör python model_utils.py
 
 ### 1. API-hämtning (api.py)
